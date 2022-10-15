@@ -15,7 +15,5 @@ Use the `bash` command to run the script and pass in the Collection ID as the fi
 
 Example:
 ```
-
-  bash nftids_fromcollection.sh col1kmrzafjx6ej8w79tz5vnjt4w8xuq2p6nmnheelgwwu3rsgsar0fsxc4wud > nftids.txt
-
+  bash nftids.sh col1kmrzafjx6ej8w79tz5vnjt4w8xuq2p6nmnheelgwwu3rsgsar0fsxc4wud > nftids.txt
 ```
