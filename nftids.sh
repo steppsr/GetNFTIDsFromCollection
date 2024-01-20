@@ -14,4 +14,4 @@
 
 collection_id=$1
 nfts=`curl -s https://api.mintgarden.io/collections/$collection_id/nfts/ids`
-echo $nfts | jq '.[].encoded_id' | cut -c 2- | rev | cut -c 2- | rev
+echo $nfts | jq '.[].encoded_id' | cut --fields 2 --delimiter=\"
